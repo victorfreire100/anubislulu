@@ -1,0 +1,98 @@
+{
+  "name": "anubisbot-md",
+  "version": "2.1.0-core-2.3",
+  "versionCode": 2102022100323,
+  "description": "anubisbot-md coded by anubiskun",
+  "depecrated": false,
+  "main": "index.js",
+  "directories": {
+    "library": "library",
+    "api": "api",
+    "plugins": "plugins",
+    "temp": "temp"
+  },
+  "scripts": {
+    "start": "node index.js --server",
+    "test": "node index.js --test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anubiskun/anubisbot-MD.git"
+  },
+  "keywords": [
+    "whatsapp",
+    "payment",
+    "api",
+    "bot",
+    "nodejs",
+    "baileys"
+  ],
+  "author": {
+    "name": "anubiskun",
+    "email": "anubiskun.xyz@gmail.com",
+    "url": "https://github.com/anubiskun"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anubiskun/anubisbot-MD/issues"
+  },
+  "homepage": "https://github.com/anubiskun/anubisbot-MD",
+  "dependencies": {
+    "@adiwajshing/baileys": "github:adiwajshing/baileys",
+    "@adiwajshing/keyed-db": "^0.2.4",
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@hapi/boom": "^10.0.0",
+    "@redchili/steno": "^2.0.1",
+    "awesome-phonenumber": "^3.3.0",
+    "axios": "^0.27.2",
+    "body-parser": "^1.20.0",
+    "cheerio": "^1.0.0-rc.12",
+    "crypto": "^1.0.1",
+    "express": "^4.18.1",
+    "file-type": "^16.5.3",
+    "fluent-ffmpeg": "^2.1.2",
+    "follow-redirect-url": "^2.0.1",
+    "form-data": "^4.0.0",
+    "google-it": "^1.6.3",
+    "googlethis": "^1.4.1",
+    "got": "^12.5.1",
+    "human-readable": "^0.2.1",
+    "is-url": "^1.2.4",
+    "jimp": "^0.16.1",
+    "jsdom": "^20.0.0",
+    "link-preview-js": "^2.1.19",
+    "lodash": "^4.17.21",
+    "lowdb": "^2.1.0",
+    "moment-timezone": "^0.5.37",
+    "mongoose": "^6.5.3",
+    "node-webpmux": "^3.1.1",
+    "performance-now": "^2.1.0",
+    "pino": "^8.4.2",
+    "qrcode": "^1.5.1",
+    "qrcode-terminal": "^0.12.0",
+    "remove.bg": "^1.3.0",
+    "sitepinger": "^1.1.1",
+    "syntax-error": "^1.4.0",
+    "yargs": "^17.5.1",
+    "youtube-search-api": "^1.1.0"
+  },
+  "changeLogs": [
+    "[ V 2.1.0-core-2.3 ]\n- Update core v2.3\n- Added Command Corections\n- Added notification updates\n- Fix command removebg",
+    "[ V 2.0.0-core-2.2 ]\n- Update core v2.2\n- Move package steno to @redchili/steno\n- New save Authentication state to database cloud\n- Added singleFileAuthState\n- Fix error waiting messages\n- Fix Many bugs",
+    "[ V 2.0.0-core-2.1 ]\n- Update core v2.1\n- Fix Support Multi Bot inside bot\n- Added Jadibot command (coming soon)\n- Fix Thumbnail video not display\n- Bug Fix",
+    "[ V 2.0.0-core-2.0 ]\n- re-coded core v2.0 (testing)\n- move to MultiFileAuthState\n- Fix Waiting Database Connected\n- Fix Waiting Pending Messages\n- Fix Duplicated Messages send\n- Fix Thumbnail not display\n- Bug Fix",
+    "[ V 1.6.6 ]\n- Added add & kick command in group\n- Added vote command in group\n- Marge any command\n- Fixing sticker command to improve performance\n- Fixing Tiktok command\n- Fix ytdl v2\n- Added shortlink command",
+    "[ V 1.6.5 ]\n- Added notes for group\n- Added tagall and hidetag for group\n- Added Joox Search and DL command\n- Added SoundCloud Search and DL command\n- Bug Fix",
+    "[ V 1.6.4 ]\n- Fix any command error",
+    "[ V 1.6.3 ]\n- Support Download highlights url Instagram",
+    "[ V 1.6.2 ]\n- Fix YT Downloader and Added new YT Downloader v2\n- Added any command support",
+    "[ V 1.6.1 ]\n- Bug Fix Menu can`t display in any whatsapp version",
+    "[ V 1.6.0 ]\n- Bug Fix\n- Benerin command google & gimage\n- Added command gimgrev -> for search similar image use reply image",
+    "[ V 1.5.0 ]\n- Bug Fix\n- Many added commands",
+    "[ V 1.4.0 ]\n- Bug Fix\n- Added FistChat\n- Added Public change",
+    "[ V 1.3.0 ]\n- Release Whatsapp anubis-bot beta",
+    "[ V 1.2.0 ]\n- Bug Fix\n- Added api",
+    "[ V 1.1.0 ]\n- Bug Fix",
+    "[ V 1.0.0 ]\n- Uploaded"
+  ]
+}
